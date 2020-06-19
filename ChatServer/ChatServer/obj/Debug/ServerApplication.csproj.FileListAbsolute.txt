@@ -1,0 +1,43 @@
+c:\users\dell\documents\visual studio 2015\Projects\ChatApplication\ServerApplication\bin\Debug\ServerApplication.exe.config
+C:\Users\DELL\documents\visual studio 2015\Projects\ChatApplication\ServerApplication\bin\Debug\ServerApplication.exe
+C:\Users\DELL\documents\visual studio 2015\Projects\ChatApplication\ServerApplication\bin\Debug\ServerApplication.pdb
+C:\Users\DELL\documents\visual studio 2015\Projects\ChatApplication\ServerApplication\obj\Debug\ServerApplication.csprojResolveAssemblyReference.cache
+C:\Users\DELL\documents\visual studio 2015\Projects\ChatApplication\ServerApplication\obj\Debug\ServerApplication.Properties.Resources.resources
+C:\Users\DELL\documents\visual studio 2015\Projects\ChatApplication\ServerApplication\obj\Debug\ServerApplication.Server.resources
+C:\Users\DELL\documents\visual studio 2015\Projects\ChatApplication\ServerApplication\obj\Debug\ServerApplication.csproj.GenerateResource.Cache
+C:\Users\DELL\documents\visual studio 2015\Projects\ChatApplication\ServerApplication\obj\Debug\ServerApplication.exe
+C:\Users\DELL\documents\visual studio 2015\Projects\ChatApplication\ServerApplication\obj\Debug\ServerApplication.pdb
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\ChatServer\ChatServer\bin\Debug\ServerApplication.exe.config
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\ChatServer\ChatServer\obj\Debug\ServerApplication.exe
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\ChatServer\ChatServer\obj\Debug\ServerApplication.pdb
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\ChatServer\ChatServer\bin\Debug\ServerApplication.exe
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\ChatServer\ChatServer\bin\Debug\ServerApplication.pdb
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\ChatServer\ChatServer\obj\Debug\ServerApplication.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\ChatServer\ChatServer\obj\Debug\ServerApplication.Properties.Resources.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\ChatServer\ChatServer\obj\Debug\ServerApplication.Server.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\ChatServer\ChatServer\obj\Debug\ServerApplication.csproj.GenerateResource.Cache
+D:\Files\E-Work\APIIT\Final Assignments\CNA\ChatRoom\ChatServer\ChatServer\bin\Debug\ServerApplication.exe.config
+D:\Files\E-Work\APIIT\Final Assignments\CNA\ChatRoom\ChatServer\ChatServer\obj\Debug\ServerApplication.exe
+D:\Files\E-Work\APIIT\Final Assignments\CNA\ChatRoom\ChatServer\ChatServer\obj\Debug\ServerApplication.pdb
+C:\Users\Khoi\Desktop\ChatRoom\ChatServer\ChatServer\bin\Debug\ServerApplication.exe.config
+C:\Users\Khoi\Desktop\ChatRoom\ChatServer\ChatServer\obj\Debug\ServerApplication.exe
+C:\Users\Khoi\Desktop\ChatRoom\ChatServer\ChatServer\obj\Debug\ServerApplication.pdb
+C:\Users\Khoi\Desktop\ChatRoom\ChatServer\ChatServer\bin\Debug\ServerApplication.exe
+C:\Users\Khoi\Desktop\ChatRoom\ChatServer\ChatServer\bin\Debug\ServerApplication.pdb
+C:\Users\Khoi\Desktop\ChatRoom\ChatServer\ChatServer\obj\Debug\ServerApplication.csprojResolveAssemblyReference.cache
+C:\Users\Khoi\Desktop\ChatRoom\ChatServer\ChatServer\obj\Debug\ServerApplication.Properties.Resources.resources
+C:\Users\Khoi\Desktop\ChatRoom\ChatServer\ChatServer\obj\Debug\ServerApplication.Server.resources
+C:\Users\Khoi\Desktop\ChatRoom\ChatServer\ChatServer\obj\Debug\ServerApplication.csproj.GenerateResource.Cache
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatServer\ChatServer\bin\Debug\ServerApplication.exe.config
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatServer\ChatServer\obj\Debug\ServerApplication.exe
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatServer\ChatServer\obj\Debug\ServerApplication.pdb
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatServer\ChatServer\bin\Debug\ServerApplication.exe
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatServer\ChatServer\bin\Debug\ServerApplication.pdb
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatServer\ChatServer\obj\Debug\ServerApplication.csprojResolveAssemblyReference.cache
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatServer\ChatServer\obj\Debug\ServerApplication.Properties.Resources.resources
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatServer\ChatServer\obj\Debug\ServerApplication.Server.resources
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatServer\ChatServer\obj\Debug\ServerApplication.csproj.GenerateResource.Cache
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatServer\ChatServer\bin\Debug\EntityFramework.dll
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatServer\ChatServer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatServer\ChatServer\bin\Debug\EntityFramework.xml
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatServer\ChatServer\bin\Debug\EntityFramework.SqlServer.xml

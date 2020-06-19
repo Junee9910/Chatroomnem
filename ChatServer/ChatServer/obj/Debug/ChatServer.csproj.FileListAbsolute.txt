@@ -1,0 +1,1 @@
+c:\users\dell\documents\visual studio 2015\Projects\ChatServer\ChatServer\bin\Debug\ChatServer.exe.config

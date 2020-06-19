@@ -1,0 +1,36 @@
+c:\users\dell\documents\visual studio 2015\Projects\ChatApplication\ChatApplication\bin\Debug\ChatApplication.exe.config
+C:\Users\DELL\documents\visual studio 2015\Projects\ChatApplication\ChatApplication\bin\Debug\ChatApplication.exe
+C:\Users\DELL\documents\visual studio 2015\Projects\ChatApplication\ChatApplication\bin\Debug\ChatApplication.pdb
+C:\Users\DELL\documents\visual studio 2015\Projects\ChatApplication\ChatApplication\obj\Debug\ChatApplication.csprojResolveAssemblyReference.cache
+C:\Users\DELL\documents\visual studio 2015\Projects\ChatApplication\ChatApplication\obj\Debug\ChatApplication.PrivateChat.resources
+C:\Users\DELL\documents\visual studio 2015\Projects\ChatApplication\ChatApplication\obj\Debug\ChatApplication.Properties.Resources.resources
+C:\Users\DELL\documents\visual studio 2015\Projects\ChatApplication\ChatApplication\obj\Debug\ChatApplication.PublicChat.resources
+C:\Users\DELL\documents\visual studio 2015\Projects\ChatApplication\ChatApplication\obj\Debug\ChatApplication.Welcome.resources
+C:\Users\DELL\documents\visual studio 2015\Projects\ChatApplication\ChatApplication\obj\Debug\ChatApplication.csproj.GenerateResource.Cache
+C:\Users\DELL\documents\visual studio 2015\Projects\ChatApplication\ChatApplication\obj\Debug\ChatApplication.exe
+C:\Users\DELL\documents\visual studio 2015\Projects\ChatApplication\ChatApplication\obj\Debug\ChatApplication.pdb
+D:\Files\E-Work\APIIT\Final Assignments\CNA\ChatRoom\ChatApplication\ChatApplication\bin\Debug\ChatApplication.exe.config
+D:\Files\E-Work\APIIT\Final Assignments\CNA\ChatRoom\ChatApplication\ChatApplication\obj\Debug\ChatApplication.exe
+D:\Files\E-Work\APIIT\Final Assignments\CNA\ChatRoom\ChatApplication\ChatApplication\obj\Debug\ChatApplication.pdb
+C:\Users\Khoi\Desktop\ChatRoom\ChatApplication\ChatApplication\bin\Debug\ChatApplication.exe.config
+C:\Users\Khoi\Desktop\ChatRoom\ChatApplication\ChatApplication\obj\Debug\ChatApplication.exe
+C:\Users\Khoi\Desktop\ChatRoom\ChatApplication\ChatApplication\obj\Debug\ChatApplication.pdb
+C:\Users\Khoi\Desktop\ChatRoom\ChatApplication\ChatApplication\bin\Debug\ChatApplication.exe
+C:\Users\Khoi\Desktop\ChatRoom\ChatApplication\ChatApplication\bin\Debug\ChatApplication.pdb
+C:\Users\Khoi\Desktop\ChatRoom\ChatApplication\ChatApplication\obj\Debug\ChatApplication.csprojResolveAssemblyReference.cache
+C:\Users\Khoi\Desktop\ChatRoom\ChatApplication\ChatApplication\obj\Debug\ChatApplication.PrivateChat.resources
+C:\Users\Khoi\Desktop\ChatRoom\ChatApplication\ChatApplication\obj\Debug\ChatApplication.Properties.Resources.resources
+C:\Users\Khoi\Desktop\ChatRoom\ChatApplication\ChatApplication\obj\Debug\ChatApplication.PublicChat.resources
+C:\Users\Khoi\Desktop\ChatRoom\ChatApplication\ChatApplication\obj\Debug\ChatApplication.Welcome.resources
+C:\Users\Khoi\Desktop\ChatRoom\ChatApplication\ChatApplication\obj\Debug\ChatApplication.csproj.GenerateResource.Cache
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatApplication\ChatApplication\bin\Debug\ChatApplication.exe.config
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatApplication\ChatApplication\obj\Debug\ChatApplication.exe
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatApplication\ChatApplication\obj\Debug\ChatApplication.pdb
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatApplication\ChatApplication\bin\Debug\ChatApplication.exe
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatApplication\ChatApplication\bin\Debug\ChatApplication.pdb
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatApplication\ChatApplication\obj\Debug\ChatApplication.csprojResolveAssemblyReference.cache
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatApplication\ChatApplication\obj\Debug\ChatApplication.PrivateChat.resources
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatApplication\ChatApplication\obj\Debug\ChatApplication.Properties.Resources.resources
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatApplication\ChatApplication\obj\Debug\ChatApplication.PublicChat.resources
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatApplication\ChatApplication\obj\Debug\ChatApplication.Welcome.resources
+C:\Users\Khoi\Desktop\Lập trình mạng\ChatRoom\ChatApplication\ChatApplication\obj\Debug\ChatApplication.csproj.GenerateResource.Cache

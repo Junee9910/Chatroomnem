@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ChatModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PassWord" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="avatar" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="ListFriends" Relationship="Self.FK__ListFrien__idFri__5165187F" FromRole="Account" ToRole="ListFriend" />
+    <NavigationProperty Name="ListFriends1" Relationship="Self.FK__ListFrien__idFri__52593CB8" FromRole="Account" ToRole="ListFriend" />
+    <NavigationProperty Name="ListFriendGroups" Relationship="Self.FK__ListFrien__idFri__5629CD9C" FromRole="Account" ToRole="ListFriendGroup" />
+    <NavigationProperty Name="Messengers" Relationship="Self.FK__Messenger__UserF__59063A47" FromRole="Account" ToRole="Messenger" />
+    <NavigationProperty Name="Messengers1" Relationship="Self.FK__Messenger__UserT__59FA5E80" FromRole="Account" ToRole="Messenger" />
+  </EntityType>
+  <EntityType Name="GroupChat">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="ListFriendGroups" Relationship="Self.FK__ListFrien__idFri__5535A963" FromRole="GroupChat" ToRole="ListFriendGroup" />
+    <NavigationProperty Name="Messengers" Relationship="Self.FK__Messenger__UserT__5AEE82B9" FromRole="GroupChat" ToRole="Messenger" />
+  </EntityType>
+  <EntityType Name="ListFriend">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idUser" Type="Int32" />
+    <Property Name="idFriend" Type="Int32" />
+    <NavigationProperty Name="Account" Relationship="Self.FK__ListFrien__idFri__5165187F" FromRole="ListFriend" ToRole="Account" />
+    <NavigationProperty Name="Account1" Relationship="Self.FK__ListFrien__idFri__52593CB8" FromRole="ListFriend" ToRole="Account" />
+  </EntityType>
+  <EntityType Name="ListFriendGroup">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idGroup" Type="Int32" />
+    <Property Name="idFriend" Type="Int32" />
+    <NavigationProperty Name="Account" Relationship="Self.FK__ListFrien__idFri__5629CD9C" FromRole="ListFriendGroup" ToRole="Account" />
+    <NavigationProperty Name="GroupChat" Relationship="Self.FK__ListFrien__idFri__5535A963" FromRole="ListFriendGroup" ToRole="GroupChat" />
+  </EntityType>
+  <EntityType Name="Messenger">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="body" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="UserFrom" Type="Int32" Nullable="false" />
+    <Property Name="DateSent" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UserTo" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Account" Relationship="Self.FK__Messenger__UserF__59063A47" FromRole="Messenger" ToRole="Account" />
+    <NavigationProperty Name="Account1" Relationship="Self.FK__Messenger__UserT__59FA5E80" FromRole="Messenger" ToRole="Account" />
+    <NavigationProperty Name="GroupChat" Relationship="Self.FK__Messenger__UserT__5AEE82B9" FromRole="Messenger" ToRole="GroupChat" />
+  </EntityType>
+  <Association Name="FK__ListFrien__idFri__5165187F">
+    <End Role="Account" Type="Self.Account" Multiplicity="0..1" />
+    <End Role="ListFriend" Type="Self.ListFriend" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ListFriend">
+        <PropertyRef Name="idUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ListFrien__idFri__52593CB8">
+    <End Role="Account" Type="Self.Account" Multiplicity="0..1" />
+    <End Role="ListFriend" Type="Self.ListFriend" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ListFriend">
+        <PropertyRef Name="idFriend" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ListFrien__idFri__5629CD9C">
+    <End Role="Account" Type="Self.Account" Multiplicity="0..1" />
+    <End Role="ListFriendGroup" Type="Self.ListFriendGroup" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ListFriendGroup">
+        <PropertyRef Name="idFriend" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Messenger__UserF__59063A47">
+    <End Role="Account" Type="Self.Account" Multiplicity="1" />
+    <End Role="Messenger" Type="Self.Messenger" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Messenger">
+        <PropertyRef Name="UserFrom" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Messenger__UserT__59FA5E80">
+    <End Role="Account" Type="Self.Account" Multiplicity="1" />
+    <End Role="Messenger" Type="Self.Messenger" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Messenger">
+        <PropertyRef Name="UserTo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ListFrien__idFri__5535A963">
+    <End Role="GroupChat" Type="Self.GroupChat" Multiplicity="0..1" />
+    <End Role="ListFriendGroup" Type="Self.ListFriendGroup" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GroupChat">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ListFriendGroup">
+        <PropertyRef Name="idGroup" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Messenger__UserT__5AEE82B9">
+    <End Role="GroupChat" Type="Self.GroupChat" Multiplicity="1" />
+    <End Role="Messenger" Type="Self.Messenger" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GroupChat">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Messenger">
+        <PropertyRef Name="UserTo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ChatEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Accounts" EntityType="Self.Account" />
+    <EntitySet Name="GroupChats" EntityType="Self.GroupChat" />
+    <EntitySet Name="ListFriends" EntityType="Self.ListFriend" />
+    <EntitySet Name="ListFriendGroups" EntityType="Self.ListFriendGroup" />
+    <EntitySet Name="Messengers" EntityType="Self.Messenger" />
+    <AssociationSet Name="FK__ListFrien__idFri__5165187F" Association="Self.FK__ListFrien__idFri__5165187F">
+      <End Role="Account" EntitySet="Accounts" />
+      <End Role="ListFriend" EntitySet="ListFriends" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ListFrien__idFri__52593CB8" Association="Self.FK__ListFrien__idFri__52593CB8">
+      <End Role="Account" EntitySet="Accounts" />
+      <End Role="ListFriend" EntitySet="ListFriends" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ListFrien__idFri__5629CD9C" Association="Self.FK__ListFrien__idFri__5629CD9C">
+      <End Role="Account" EntitySet="Accounts" />
+      <End Role="ListFriendGroup" EntitySet="ListFriendGroups" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Messenger__UserF__59063A47" Association="Self.FK__Messenger__UserF__59063A47">
+      <End Role="Account" EntitySet="Accounts" />
+      <End Role="Messenger" EntitySet="Messengers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Messenger__UserT__59FA5E80" Association="Self.FK__Messenger__UserT__59FA5E80">
+      <End Role="Account" EntitySet="Accounts" />
+      <End Role="Messenger" EntitySet="Messengers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ListFrien__idFri__5535A963" Association="Self.FK__ListFrien__idFri__5535A963">
+      <End Role="GroupChat" EntitySet="GroupChats" />
+      <End Role="ListFriendGroup" EntitySet="ListFriendGroups" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Messenger__UserT__5AEE82B9" Association="Self.FK__Messenger__UserT__5AEE82B9">
+      <End Role="GroupChat" EntitySet="GroupChats" />
+      <End Role="Messenger" EntitySet="Messengers" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
